@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    height: 40vh;
+    width: 100%;
+    background-image: url(photo6.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homeline {
+    display: flex;
+    font-size: 13px;
+}
+
+.section111 {
+    background-color: rgb(176, 8, 8);
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 3s 1s linear;
+}
+
+.section111:hover {
+    transform: translateY(-20px);
+}
+
+.content {
+    height: 200px;
+    background-color: rgb(30, 114, 114);
+}
+
+.icon1 i {
+    padding: 6px;
+
+}
+
+.icon1 a {
+    text-shadow: 1px 1px 10px rgb(252, 251, 251), 1px 1px 10px orange;
+
+}
+
+.icon1 {
+    font-size: 13px;
+}
+
+.navigationbar {
+    font-size: 13px;
+
+}
+
+.icon11 {
+    color: chartreuse;
+    padding: 0px 8px 0px 0px;
+}
+
+.section2 input {
+    outline: none;
+    border-color: antiquewhite;
+    background-color: rgb(242, 244, 246);
+    padding: 2px;
+}
+
+.section2 textarea {
+    outline: 1px;
+    background-color: rgb(243, 238, 238);
+}
+
+.section2 .submit {
+    outline: none;
+    border-color: antiquewhite;
+    color: white;
+    background-color: chartreuse;
+    padding: 2px 15px 2px 15px;
+    border-radius: 4px;
+}
+.section2 h4{
+    font-weight: bold;
+}
+
+.div1{
+    height: 190px;
+    width: 270px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    font-size:14px;
+}
+.div2{
+    height: 190px;
+    width: 270px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-top: 15px;
+    font-size:14px;
+}
+.green{
+    color: green;
+}
+
+.section3 {
+    background-color: black;
+    line-height: 25px;
+}
+
+.section3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.section3 h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.section3 h6 {
+    font-size: 13px;
+    color: white;
+}
+
+.section3 p {
+    font-size: 12px;
+    color: white;
+}
+
+.section3 .social {
+    display: flex;
+}
+
+.section3 .social .media {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(32, 34, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: green;
+    font-size: 13px;
+    transition: all 1s 1s linear;
+}
+
+.section3 .social .media:hover {
+    transform: translateX(-10px);
+    color: rgb(8, 0, 0);
+    background-color: green;
+}

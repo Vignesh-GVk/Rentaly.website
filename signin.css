@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    height: 120vh;
+    width: 100%;
+
+}
+
+.section1 {
+    position: absolute;
+    height: 120vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(carparking.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(2px);
+
+}
+
+.homeline {
+    display: flex;
+    font-size: 13px;
+}
+
+.icon1 i {
+    padding: 6px;
+
+}
+
+.icon1 a {
+    text-shadow: 1px 1px 10px rgb(252, 251, 251), 1px 1px 10px orange;
+
+}
+
+.icon1 {
+    font-size: 13px;
+}
+
+.navigationbar {
+    font-size: 13px;
+
+}
+
+.icon11 {
+    color: chartreuse;
+    padding: 0px 9px 0px 0px;
+}
+
+.form {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    z-index: 2;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 3px 3px rgb(9, 181, 233),-2px -2px 4px 2px rgb(212, 17, 131);
+
+}
+.form input{
+    padding: 2px;
+    margin-top: 15px;
+}
+
+.gf a {
+    padding-right: 30px;
+}
